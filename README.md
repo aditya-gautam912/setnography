@@ -64,8 +64,8 @@ def decode(image_path):
 # ------------------------------------------
 
 # Provide valid .png files here
-input_image = r"C:\Users\ag950\Downloads\VeraCrypt\docs\html\en\ru\flag-nz.png"  # Original image
-output_image = r"D:\stego_image_xor.png"  # Output image
+input_image  = r"C:\Users\ag950\OneDrive\Pictures\Screenshots\Screenshot 2025-02-02 101116.png"  # Original image   
+output_image = r"D:\Program Files\Microvirt\MEmu\skins\Default\preview.png"  # Output image 
 
 # Save a sample image if you don't have one
 # You can create a blank image for testing
@@ -85,3 +85,5 @@ secret_message = "This is a hidden message!"
 # Encode and decode the message
 encode(input_image, secret_message, output_image)
 print("🔍 Decoded message:", decode(output_image))
+
+
